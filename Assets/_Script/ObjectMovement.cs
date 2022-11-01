@@ -65,10 +65,5 @@ public class ObjectMovement : MonoBehaviour
         playerRb.velocity = rb.velocity;
     }
 
-/*    void slowdown()
-    {
-        rb.AddForce(Vector3.right * speed, ForceMode2D.Impulse);
-        speed -= 1f;
-    }*/
 
 }
