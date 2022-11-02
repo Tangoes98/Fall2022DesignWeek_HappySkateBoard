@@ -17,11 +17,12 @@ public class PlayerMovement : MonoBehaviour
     Rigidbody2D rb;
 
 
-    [Range(10f, 30f)]
+    [Range(5f, 30f)]
     public float deltaRt;
     float rt;
 
-
+    public GameObject leftPvPos;
+    public GameObject rightPvPos;
 
 
 
@@ -66,13 +67,15 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKey(KeyCode.Q))
         {
             rt += deltaRt * 0.5f * Time.deltaTime;
-            Player.transform.Rotate(Vector3.forward, rt, Space.Self);
+            //Player.transform.Rotate(Vector3.forward, rt, Space.Self); //this will rotate around itself
+            Player.transform.RotateAround(leftPvPos.transform.position, leftPvPos.transform.forward, rt);
         }
         else if (Input.GetKey(KeyCode.E))
         {
 
             rt += deltaRt * 0.5f * Time.deltaTime;
-            Player.transform.Rotate(Vector3.back, rt, Space.Self);
+            //Player.transform.Rotate(Vector3.back, rt, Space.Self);
+            Player.transform.RotateAround(rightPvPos.transform.position, -rightPvPos.transform.forward, rt);
         }
         else
         {
