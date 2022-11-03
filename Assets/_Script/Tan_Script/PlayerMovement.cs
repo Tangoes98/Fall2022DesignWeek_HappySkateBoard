@@ -36,6 +36,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
+/*
         if (Player.GetComponent<IsOnGroundCheck>().isGround == true
             )
         {
@@ -63,6 +64,7 @@ public class PlayerMovement : MonoBehaviour
             }
 
         }
+*/
 
         if (Input.GetKey(KeyCode.Q))
         {
