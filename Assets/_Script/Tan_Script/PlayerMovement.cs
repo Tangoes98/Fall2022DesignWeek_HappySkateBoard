@@ -26,8 +26,7 @@ public class PlayerMovement : MonoBehaviour
 
 
 
-
-
+ 
     public void Awake()
     {
         rb = Player.GetComponent<Rigidbody2D>();
@@ -66,13 +65,13 @@ public class PlayerMovement : MonoBehaviour
         }
 */
 
-        if (Input.GetKey(KeyCode.Q))
+        if (Input.GetKey(KeyCode.Mouse0))
         {
             rt += deltaRt * 0.5f * Time.deltaTime;
             //Player.transform.Rotate(Vector3.forward, rt, Space.Self); //this will rotate around itself
             Player.transform.RotateAround(leftPvPos.transform.position, leftPvPos.transform.forward, rt);
         }
-        else if (Input.GetKey(KeyCode.E))
+        else if (Input.GetKey(KeyCode.Space))
         {
 
             rt += deltaRt * 0.5f * Time.deltaTime;

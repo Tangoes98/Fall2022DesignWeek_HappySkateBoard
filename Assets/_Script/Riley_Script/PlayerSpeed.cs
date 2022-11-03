@@ -42,12 +42,12 @@ public class PlayerSpeed : MonoBehaviour
         {
             var canJump = true;
             //speed function
-            if (Input.GetKey(KeyCode.D))
+            if (Input.GetKey(KeyCode.RightArrow))
             {
                 chargeSpeed += deltaV;
                 chargeSpeed = Mathf.Clamp(chargeSpeed, deltaV, deltaV * 150);
                 canJump = false;
-                if (Input.GetKeyDown(KeyCode.S))
+                if (Input.GetKeyDown(KeyCode.UpArrow))
                 {
                     speed += chargeSpeed;
                     rb.velocity = Vector3.right * speed * Time.deltaTime;
@@ -55,13 +55,13 @@ public class PlayerSpeed : MonoBehaviour
                     speed = 0f;
                 }
             }
-            else if (Input.GetKey(KeyCode.A))
+            else if (Input.GetKey(KeyCode.DownArrow))
             {
                 canJump = false;
-                if (Input.GetKeyDown(KeyCode.S))
+                if (Input.GetKeyDown(KeyCode.UpArrow))
                 {
-                    Debug.Log("Back");
-                    speed -= deltaV * 100;
+                    //Debug.Log("Back");
+                    speed -= deltaV * 50;
                     rb.velocity = Vector3.right * speed * Time.deltaTime;
                     chargeSpeed = 0;
                 }
@@ -73,7 +73,7 @@ public class PlayerSpeed : MonoBehaviour
             }
 
             // jump function
-            if (Input.GetKeyDown(KeyCode.S) && canJump == true)
+            if (Input.GetKeyDown(KeyCode.UpArrow) && canJump == true)
             {
                 rb.AddForce(Vector2.up * 10f, ForceMode2D.Impulse);
             }
