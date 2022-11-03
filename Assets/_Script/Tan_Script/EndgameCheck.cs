@@ -4,14 +4,15 @@ using UnityEngine;
 
 public class EndgameCheck : MonoBehaviour
 {
+    public GameObject gameOverScreen;
+
     // if is on ground check
     private void OnCollisionEnter2D(Collision2D collision)
     {
 
         if (collision.gameObject.CompareTag("Ground"))
         {
-            Debug.Log("GameOver");
-            
+            gameOverScreen.SetActive(true);
         }
     }
 
