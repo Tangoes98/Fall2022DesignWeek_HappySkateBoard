@@ -244,8 +244,10 @@ public class PlayerSpeed : MonoBehaviour
         {
             if (Input.GetKey("a"))
             {
+                Debug.Log("A");
                 if (Player.GetComponent<IsOnGroundCheck>().isGround == true)
                 {
+                    Debug.Log("jump");
                     Jump();
                 }
             }
@@ -330,7 +332,7 @@ public class PlayerSpeed : MonoBehaviour
     void Movement()
         {
             // Moving Forwards:
-            //if (Input.anyKeyDown)
+            //if (speed<=4000)
             //{
                 if ((Input.GetKey("d") || keyAPressedBefore) && keyDPressedBefore == false)
                 {
@@ -344,8 +346,10 @@ public class PlayerSpeed : MonoBehaviour
                         {
                             if (Input.GetKey("w"))
                             {
-                                Debug.Log("Test");
-                                speed += deltaV * 30;   // Small increase in speed.
+                                if(speed < 4000)
+                                {
+                                    speed += deltaV * 20;   // Small increase in speed.
+                                }
                                 rb.velocity = Vector3.right * speed * Time.deltaTime;
                                 keySPressedBefore = true;
                             }
@@ -353,7 +357,10 @@ public class PlayerSpeed : MonoBehaviour
                             {
                                 if (Input.GetKey("s"))
                                 {
-                                    speed += deltaV * 30; // Small increase in speed, would stack with previous increase.
+                                    if(speed < 4000)
+                                    {
+                                        speed += deltaV * 20; // Small increase in speed, would stack with previous increase.
+                                    }
                                     rb.velocity = Vector3.right * speed * Time.deltaTime;
                                     keyAPressedBefore = false;
                                     keySPressedBefore = false;
@@ -383,7 +390,7 @@ public class PlayerSpeed : MonoBehaviour
 
 
             // Moving Backwards:
-            else if (Input.GetKey("s") || keyDPressedBefore)
+            /*else if (Input.GetKey("s") || keyDPressedBefore)
             {
                 if (Input.GetKey("s"))
                     keyDPressedBefore = true;
@@ -393,7 +400,10 @@ public class PlayerSpeed : MonoBehaviour
                     {
                         if (Input.GetKey("w"))
                         {
-                            speed -= deltaV * 20;   // Small increase in speed towards the left.
+                            if(speed > -4000)
+                            {
+                                speed -= deltaV * 20;   // Small increase in speed towards the left.
+                            }
                             rb.velocity = Vector3.right * speed * Time.deltaTime;
                             keySPressedBefore = true;
                         }
@@ -401,7 +411,10 @@ public class PlayerSpeed : MonoBehaviour
                         {
                             if (Input.GetKey("d"))
                             {
-                                speed -= deltaV * 20; // Small increase in speed towards the left, would stack with previous increase.
+                                if(speed > -4000)
+                                {
+                                    speed -= deltaV * 20; // Small increase in speed towards the left, would stack with previous increase.
+                                }
                                 rb.velocity = Vector3.right * speed * Time.deltaTime;
                                 keyAPressedBefore = false;
                                 keySPressedBefore = false;
@@ -426,7 +439,7 @@ public class PlayerSpeed : MonoBehaviour
                         keySPressedBefore = false;
                     }
                 }
-            }
+            }*/
             else
             {
                 keyDPressedBefore = false;
