@@ -5,23 +5,18 @@ using UnityEngine.UI;
 
 public class PlayerSpeed : MonoBehaviour
 {
-    // NOTE: Keys do not allow you to press multiple inputs at once. If you do, it will detect a key press when not intended. Don't know if this will be an issue with the controller.
-
-    // NOTE 2: Issue with attempting to flick from half swipe (ex. a+s) to swipe in opposite direction (ex. a+s -> d+s). As of now, you have to complete full swipe to switch direction.
-
     [SerializeField]
     GameObject Player;
     Rigidbody2D rb;
 
-
-    [Range(0f, 5000f)]
+    //[Range(0f, 5000f)]
     public float deltaV;
 
     public float chargeSpeed;
     public float speed;
 
 
-    //private bool keyAPressedBefore = false, keySPressedBefore = false, keyDPressedBefore = false;   // Used when detecting the sequence of button presses.
+    private bool keyAPressedBefore = false, keySPressedBefore = false, keyDPressedBefore = false;   // Used when detecting the sequence of button presses.
 
 
     public void Awake()
@@ -32,11 +27,24 @@ public class PlayerSpeed : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        NewTwoKeyMovement();
+        if (Input.anyKeyDown)
+        {
+            if (Input.GetKey("a"))
+            {
+                if (Player.GetComponent<IsOnGroundCheck>().isGround == true)
+                {
+                    Jump();
+                }
+            }
+            else
+            {
+                Movement();
+            }
+        }
     }
 
 
-    void NewTwoKeyMovement()
+    /*void NewTwoKeyMovement()
     {
         if (Player.GetComponent<IsOnGroundCheck>().isGround == true)
         {
@@ -78,10 +86,10 @@ public class PlayerSpeed : MonoBehaviour
                 rb.AddForce(Vector2.up * 10f, ForceMode2D.Impulse);
             }
         }
-    }
+    }*/
 
 
-    /*    void TwoKeyMovement()
+    /*void TwoKeyMovement()
         {
             if (Input.GetKeyUp(KeyCode.A) && Input.GetKey(KeyCode.S))
             {
@@ -100,34 +108,34 @@ public class PlayerSpeed : MonoBehaviour
         }
     */
 
-    /*
-        void OldMovement()
+    
+    void Movement()
         {
             // Moving Forwards:
-
-            if (Input.anyKeyDown)
-            {
-                if ((Input.GetKey("a") || keyAPressedBefore) && keyDPressedBefore == false)
+            //if (Input.anyKeyDown)
+            //{
+                if ((Input.GetKey("d") || keyAPressedBefore) && keyDPressedBefore == false)
                 {
-                    if (Input.GetKey("a"))
+                    if (Input.GetKey("d"))
 
                         keyAPressedBefore = true;
 
                     else
                     {
-                        if (Input.GetKey("s") || keySPressedBefore)
+                        if (Input.GetKey("w") || keySPressedBefore)
                         {
-                            if (Input.GetKey("s"))
+                            if (Input.GetKey("w"))
                             {
-                                speed += deltaV;   // Small increase in speed.
+                                Debug.Log("Test");
+                                speed += deltaV * 30;   // Small increase in speed.
                                 rb.velocity = Vector3.right * speed * Time.deltaTime;
                                 keySPressedBefore = true;
                             }
                             else
                             {
-                                if (Input.GetKey("d"))
+                                if (Input.GetKey("s"))
                                 {
-                                    speed += deltaV; // Small increase in speed, would stack with previous increase.
+                                    speed += deltaV * 30; // Small increase in speed, would stack with previous increase.
                                     rb.velocity = Vector3.right * speed * Time.deltaTime;
                                     keyAPressedBefore = false;
                                     keySPressedBefore = false;
@@ -153,11 +161,11 @@ public class PlayerSpeed : MonoBehaviour
                         }
                     }
                 }
-            }
+            //}
 
 
             // Moving Backwards:
-            else if (Input.GetKey("d") || keyDPressedBefore)
+            /*else if (Input.GetKey("d") || keyDPressedBefore)
             {
                 if (Input.GetKey("d"))
                     keyDPressedBefore = true;
@@ -200,16 +208,19 @@ public class PlayerSpeed : MonoBehaviour
                         keySPressedBefore = false;
                     }
                 }
-            }
+            }*/
             else
             {
                 keyDPressedBefore = false;
                 keyAPressedBefore = false;
                 keySPressedBefore = false;
             }
+            Awake();
         }
-    */
-
+    void Jump() 
+    {
+        rb.AddForce(Vector2.up * 10f, ForceMode2D.Impulse);
+    }
 }
 
 
