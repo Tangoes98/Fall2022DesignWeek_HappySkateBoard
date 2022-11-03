@@ -608,8 +608,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e7ad4ca1756335458fa8a146cc42150, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
-  deltaV: 0
+  Player: {fileID: 1947744048}
+  deltaV: 20
   chargeSpeed: 0
   speed: 0
 --- !u!1 &1879931812
