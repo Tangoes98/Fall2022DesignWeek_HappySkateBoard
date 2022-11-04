@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 40041862}
   m_Layer: 0
   m_Name: Platform2Top
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -270,7 +270,7 @@ GameObject:
   - component: {fileID: 63033562}
   m_Layer: 0
   m_Name: Hill2LeftSide
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -403,7 +403,7 @@ GameObject:
   - component: {fileID: 138836583}
   m_Layer: 0
   m_Name: Platform1Bottom
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -764,7 +764,7 @@ GameObject:
   - component: {fileID: 278166149}
   m_Layer: 0
   m_Name: platform3Round
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -887,7 +887,7 @@ GameObject:
   - component: {fileID: 312607115}
   m_Layer: 0
   m_Name: Platform1Top
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1211,7 +1211,7 @@ GameObject:
   - component: {fileID: 437799211}
   m_Layer: 0
   m_Name: End of Hill2
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1334,7 +1334,7 @@ GameObject:
   - component: {fileID: 446920362}
   m_Layer: 0
   m_Name: Platform2Bottom
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1602,7 +1602,7 @@ GameObject:
   - component: {fileID: 498163780}
   m_Layer: 0
   m_Name: platform3Round
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1876,7 +1876,7 @@ GameObject:
   - component: {fileID: 580777445}
   m_Layer: 0
   m_Name: BottomhumpRound
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1999,7 +1999,7 @@ GameObject:
   - component: {fileID: 604741223}
   m_Layer: 0
   m_Name: platform3 (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2132,7 +2132,7 @@ GameObject:
   - component: {fileID: 604955478}
   m_Layer: 0
   m_Name: End of Hill
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2682,7 +2682,7 @@ GameObject:
   - component: {fileID: 758846423}
   m_Layer: 0
   m_Name: Back of Hill
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2805,7 +2805,7 @@ GameObject:
   - component: {fileID: 764985062}
   m_Layer: 0
   m_Name: BottomHumpSlop
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2938,7 +2938,7 @@ GameObject:
   - component: {fileID: 768071723}
   m_Layer: 0
   m_Name: end of hill
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3071,7 +3071,7 @@ GameObject:
   - component: {fileID: 944174325}
   m_Layer: 0
   m_Name: BottomHump
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3241,6 +3241,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5938200462038918259, guid: f594afd25f2a588469a70ce8ac4e3ccc, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1066719798}
     - target: {fileID: 5938200462038918271, guid: f594afd25f2a588469a70ce8ac4e3ccc, type: 3}
       propertyPath: m_Name
       value: GameCamera
@@ -3261,7 +3265,7 @@ GameObject:
   - component: {fileID: 1005112962}
   m_Layer: 0
   m_Name: Ground
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3394,7 +3398,7 @@ GameObject:
   - component: {fileID: 1016371626}
   m_Layer: 0
   m_Name: Platform2Right
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3632,7 +3636,7 @@ GameObject:
   - component: {fileID: 1029044115}
   m_Layer: 0
   m_Name: Platform1LeftSide
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3806,6 +3810,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2491527723238621752, guid: 2b532c1a429e7aa4da8abd30ca56e9b2, type: 3}
+      propertyPath: gameOverScreen
+      value: 
+      objectReference: {fileID: 1066719798}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b532c1a429e7aa4da8abd30ca56e9b2, type: 3}
 --- !u!1 &1066719797 stripped
@@ -3848,7 +3856,7 @@ GameObject:
   - component: {fileID: 1129770983}
   m_Layer: 0
   m_Name: Top Of Hill
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4262,7 +4270,7 @@ GameObject:
   - component: {fileID: 1214537064}
   m_Layer: 0
   m_Name: platform3 (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4471,7 +4479,7 @@ GameObject:
   - component: {fileID: 1241592527}
   m_Layer: 0
   m_Name: Pit Slope
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4604,7 +4612,7 @@ GameObject:
   - component: {fileID: 1298740222}
   m_Layer: 0
   m_Name: End of Hill1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4873,7 +4881,7 @@ GameObject:
   - component: {fileID: 1366005862}
   m_Layer: 0
   m_Name: platform3 (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5141,7 +5149,7 @@ GameObject:
   - component: {fileID: 1428098273}
   m_Layer: 0
   m_Name: platform3 (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5274,7 +5282,7 @@ GameObject:
   - component: {fileID: 1574484088}
   m_Layer: 0
   m_Name: Hill2top
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5542,7 +5550,7 @@ GameObject:
   - component: {fileID: 1639115887}
   m_Layer: 0
   m_Name: Platform2RightCorner
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5951,7 +5959,7 @@ GameObject:
   - component: {fileID: 1706108222}
   m_Layer: 0
   m_Name: platform3Round
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6291,7 +6299,7 @@ GameObject:
   - component: {fileID: 1812215516}
   m_Layer: 0
   m_Name: Platform2Left
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6424,7 +6432,7 @@ GameObject:
   - component: {fileID: 1832033021}
   m_Layer: 0
   m_Name: platform3
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6557,7 +6565,7 @@ GameObject:
   - component: {fileID: 1878009521}
   m_Layer: 0
   m_Name: Hill2RightSide
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6690,7 +6698,7 @@ GameObject:
   - component: {fileID: 1898696269}
   m_Layer: 0
   m_Name: End of Hill3
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6946,7 +6954,7 @@ GameObject:
   - component: {fileID: 1959604438}
   m_Layer: 0
   m_Name: Platform1RightSide
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7079,7 +7087,7 @@ GameObject:
   - component: {fileID: 1983670336}
   m_Layer: 0
   m_Name: Platform2LeftCorner
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7213,7 +7221,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2017872358}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &2017872360
 Camera:
   m_ObjectHideFlags: 0
@@ -7421,7 +7429,7 @@ GameObject:
   - component: {fileID: 2073517750}
   m_Layer: 0
   m_Name: platform3 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

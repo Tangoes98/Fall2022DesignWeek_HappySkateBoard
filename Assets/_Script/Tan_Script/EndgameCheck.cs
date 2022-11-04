@@ -9,7 +9,6 @@ public class EndgameCheck : MonoBehaviour
     // if is on ground check
     private void OnCollisionEnter2D(Collision2D collision)
     {
-
         if (collision.gameObject.CompareTag("Ground"))
         {
             gameOverScreen.SetActive(true);

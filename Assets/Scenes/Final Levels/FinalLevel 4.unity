@@ -283,7 +283,7 @@ GameObject:
   - component: {fileID: 2995438}
   m_Layer: 0
   m_Name: HillSlop1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -697,7 +697,7 @@ GameObject:
   - component: {fileID: 68291186}
   m_Layer: 0
   m_Name: TopOfHill
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1060,7 +1060,7 @@ GameObject:
   - component: {fileID: 252742619}
   m_Layer: 0
   m_Name: HillSlop2
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1193,7 +1193,7 @@ GameObject:
   - component: {fileID: 409174197}
   m_Layer: 0
   m_Name: RoundHillLeftSlop
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1326,7 +1326,7 @@ GameObject:
   - component: {fileID: 494883755}
   m_Layer: 0
   m_Name: RoundHillRightSlop
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1740,7 +1740,7 @@ GameObject:
   - component: {fileID: 792354622}
   m_Layer: 0
   m_Name: HillSlop3
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2092,7 +2092,7 @@ GameObject:
   - component: {fileID: 1083608704}
   m_Layer: 0
   m_Name: Pit
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2225,7 +2225,7 @@ GameObject:
   - component: {fileID: 1094212176}
   m_Layer: 0
   m_Name: PitRightWall
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2639,7 +2639,7 @@ GameObject:
   - component: {fileID: 1158378025}
   m_Layer: 0
   m_Name: Hill2
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2983,7 +2983,7 @@ GameObject:
   - component: {fileID: 1234051922}
   m_Layer: 0
   m_Name: PitLeftWall
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3241,6 +3241,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2491527723238621752, guid: 2b532c1a429e7aa4da8abd30ca56e9b2, type: 3}
+      propertyPath: gameOverScreen
+      value: 
+      objectReference: {fileID: 1372577507}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b532c1a429e7aa4da8abd30ca56e9b2, type: 3}
 --- !u!1 &1372577506 stripped
@@ -3429,7 +3433,7 @@ GameObject:
   - component: {fileID: 1466485756}
   m_Layer: 0
   m_Name: RoundHill
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3820,7 +3824,7 @@ GameObject:
   - component: {fileID: 1678317606}
   m_Layer: 0
   m_Name: Hill1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4557,6 +4561,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5938200462038918259, guid: f594afd25f2a588469a70ce8ac4e3ccc, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1372577507}
+    - target: {fileID: 5938200462038918270, guid: f594afd25f2a588469a70ce8ac4e3ccc, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5938200462038918271, guid: f594afd25f2a588469a70ce8ac4e3ccc, type: 3}
       propertyPath: m_Name
       value: GameCamera
@@ -4653,7 +4665,7 @@ GameObject:
   - component: {fileID: 2032955871}
   m_Layer: 0
   m_Name: Ground1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4831,7 +4843,7 @@ GameObject:
   - component: {fileID: 2143644695}
   m_Layer: 0
   m_Name: Ground2
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

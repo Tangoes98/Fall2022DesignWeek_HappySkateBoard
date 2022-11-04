@@ -502,7 +502,7 @@ GameObject:
   - component: {fileID: 136042550}
   m_Layer: 0
   m_Name: PitRight
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -901,7 +901,7 @@ GameObject:
   - component: {fileID: 215247430}
   m_Layer: 0
   m_Name: Platform1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1024,7 +1024,7 @@ GameObject:
   - component: {fileID: 218932397}
   m_Layer: 0
   m_Name: Platform5 (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1425,7 +1425,7 @@ GameObject:
   - component: {fileID: 259364643}
   m_Layer: 0
   m_Name: Top Cliff3
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1691,7 +1691,7 @@ GameObject:
   - component: {fileID: 279669748}
   m_Layer: 0
   m_Name: TopHill
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2559,7 +2559,7 @@ GameObject:
   - component: {fileID: 466299930}
   m_Layer: 0
   m_Name: Platform1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2682,7 +2682,7 @@ GameObject:
   - component: {fileID: 510982482}
   m_Layer: 0
   m_Name: Platform4
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2815,7 +2815,7 @@ GameObject:
   - component: {fileID: 511279931}
   m_Layer: 0
   m_Name: Platform4 (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3214,7 +3214,7 @@ GameObject:
   - component: {fileID: 539235461}
   m_Layer: 0
   m_Name: ClifEnd1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3480,7 +3480,7 @@ GameObject:
   - component: {fileID: 634593997}
   m_Layer: 0
   m_Name: Top Cliff1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3654,6 +3654,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2491527723238621752, guid: 2b532c1a429e7aa4da8abd30ca56e9b2, type: 3}
+      propertyPath: gameOverScreen
+      value: 
+      objectReference: {fileID: 650319944}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b532c1a429e7aa4da8abd30ca56e9b2, type: 3}
 --- !u!1 &650319943 stripped
@@ -4040,7 +4044,7 @@ GameObject:
   - component: {fileID: 717062464}
   m_Layer: 0
   m_Name: Platform4 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4173,7 +4177,7 @@ GameObject:
   - component: {fileID: 723277771}
   m_Layer: 0
   m_Name: Platform1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4372,7 +4376,7 @@ GameObject:
   - component: {fileID: 734616111}
   m_Layer: 0
   m_Name: Platform5 (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4638,7 +4642,7 @@ GameObject:
   - component: {fileID: 752016989}
   m_Layer: 0
   m_Name: TopRoundRight
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4761,7 +4765,7 @@ GameObject:
   - component: {fileID: 759740518}
   m_Layer: 0
   m_Name: Platform1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4884,7 +4888,7 @@ GameObject:
   - component: {fileID: 768541949}
   m_Layer: 0
   m_Name: Platform5 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5150,7 +5154,7 @@ GameObject:
   - component: {fileID: 795287033}
   m_Layer: 0
   m_Name: Platform1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5273,7 +5277,7 @@ GameObject:
   - component: {fileID: 826982307}
   m_Layer: 0
   m_Name: Top Cliff2
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5417,7 +5421,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 840856987}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &840856989
 Camera:
   m_ObjectHideFlags: 0
@@ -5490,7 +5494,7 @@ GameObject:
   - component: {fileID: 876762156}
   m_Layer: 0
   m_Name: Pitleft
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5623,7 +5627,7 @@ GameObject:
   - component: {fileID: 921435521}
   m_Layer: 0
   m_Name: Platform3 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6449,7 +6453,7 @@ GameObject:
   - component: {fileID: 1120547199}
   m_Layer: 0
   m_Name: TopRoundLeft
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7346,7 +7350,7 @@ GameObject:
   - component: {fileID: 1235150809}
   m_Layer: 0
   m_Name: Platform2
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7479,7 +7483,7 @@ GameObject:
   - component: {fileID: 1260784907}
   m_Layer: 0
   m_Name: ClifEnd3
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7745,7 +7749,7 @@ GameObject:
   - component: {fileID: 1288098286}
   m_Layer: 0
   m_Name: Platform3 (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7915,6 +7919,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5938200462038918259, guid: f594afd25f2a588469a70ce8ac4e3ccc, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 650319944}
     - target: {fileID: 5938200462038918271, guid: f594afd25f2a588469a70ce8ac4e3ccc, type: 3}
       propertyPath: m_Name
       value: GameCamera
@@ -8940,7 +8948,7 @@ GameObject:
   - component: {fileID: 1461136437}
   m_Layer: 0
   m_Name: Cliff Round
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9342,7 +9350,7 @@ GameObject:
   - component: {fileID: 1526728079}
   m_Layer: 0
   m_Name: EndGround
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9608,7 +9616,7 @@ GameObject:
   - component: {fileID: 1574304891}
   m_Layer: 0
   m_Name: Top Cliff4
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9887,7 +9895,7 @@ GameObject:
   - component: {fileID: 1651757797}
   m_Layer: 0
   m_Name: ClifEnd2
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10020,7 +10028,7 @@ GameObject:
   - component: {fileID: 1769979480}
   m_Layer: 0
   m_Name: Top Cliff5
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10153,7 +10161,7 @@ GameObject:
   - component: {fileID: 1889091311}
   m_Layer: 0
   m_Name: Platform3
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10554,7 +10562,7 @@ GameObject:
   - component: {fileID: 1932011914}
   m_Layer: 0
   m_Name: Platform1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10677,7 +10685,7 @@ GameObject:
   - component: {fileID: 1954049380}
   m_Layer: 0
   m_Name: TopHillRight
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10943,7 +10951,7 @@ GameObject:
   - component: {fileID: 1991788731}
   m_Layer: 0
   m_Name: Platform5
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11293,7 +11301,7 @@ GameObject:
   - component: {fileID: 2029764682}
   m_Layer: 0
   m_Name: Ground2Pit
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11547,7 +11555,7 @@ GameObject:
   - component: {fileID: 2103405541}
   m_Layer: 0
   m_Name: Ground1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11680,7 +11688,7 @@ GameObject:
   - component: {fileID: 2139138795}
   m_Layer: 0
   m_Name: Platform4 (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

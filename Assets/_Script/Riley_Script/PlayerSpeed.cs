@@ -31,10 +31,8 @@ public class PlayerSpeed : MonoBehaviour
         {
             if (Input.GetKey("a"))
             {
-                Debug.Log("A");
                 if (Player.GetComponent<IsOnGroundCheck>().isGround == true)
                 {
-                    Debug.Log("jump");
                     Jump();
                 }
             }

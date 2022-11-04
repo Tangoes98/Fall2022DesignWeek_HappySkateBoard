@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 11196866}
   m_Layer: 0
   m_Name: StartGround
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1219,7 +1219,7 @@ GameObject:
   - component: {fileID: 730258650}
   m_Layer: 0
   m_Name: Railing
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1485,7 +1485,7 @@ GameObject:
   - component: {fileID: 839072121}
   m_Layer: 0
   m_Name: HighRailingEnd
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1694,7 +1694,7 @@ GameObject:
   - component: {fileID: 961368936}
   m_Layer: 0
   m_Name: end  of Ramp
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2579,6 +2579,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2491527723032445876, guid: 2b532c1a429e7aa4da8abd30ca56e9b2, type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491527723238621752, guid: 2b532c1a429e7aa4da8abd30ca56e9b2, type: 3}
+      propertyPath: gameOverScreen
+      value: 
+      objectReference: {fileID: 1271699266}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b532c1a429e7aa4da8abd30ca56e9b2, type: 3}
 --- !u!1 &1271699264 stripped
@@ -2851,7 +2859,7 @@ GameObject:
   - component: {fileID: 1334412395}
   m_Layer: 0
   m_Name: Top of hill
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2974,7 +2982,7 @@ GameObject:
   - component: {fileID: 1391151456}
   m_Layer: 0
   m_Name: Start of Ramp
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3213,7 +3221,7 @@ GameObject:
   - component: {fileID: 1482670288}
   m_Layer: 0
   m_Name: HighRailingEnd
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3777,7 +3785,7 @@ GameObject:
   - component: {fileID: 1726087243}
   m_Layer: 0
   m_Name: middle of Ramp
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3910,7 +3918,7 @@ GameObject:
   - component: {fileID: 1954428904}
   m_Layer: 0
   m_Name: Ground
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4164,7 +4172,7 @@ GameObject:
   - component: {fileID: 2076947592}
   m_Layer: 0
   m_Name: Big Hill
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
