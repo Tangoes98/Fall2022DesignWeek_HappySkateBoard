@@ -18,6 +18,6 @@ public class OldMainMenu : MonoBehaviour
 
     public void restart()
     {
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene(1);
     }
 }
