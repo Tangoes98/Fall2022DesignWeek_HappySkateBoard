@@ -9,15 +9,18 @@ EditorBuildSettings:
     path: Assets/Scenes/TitleScreen.unity
     guid: a5171cec4ba0e664e803106cb458f33e
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/Final Levels/FinalLevel 1.unity
+    guid: a7705824a06e95a428a1f44d2cb7e61e
   - enabled: 1
-    path: Assets/Scenes/Level 1.unity
-    guid: ee6f9a89c816480409235b958867cf68
+    path: Assets/Scenes/Final Levels/FinalLevel 2.unity
+    guid: 25b96e727a059964d80f2f18defcc43c
   - enabled: 1
-    path: Assets/Scenes/Final Level.unity
-    guid: 3e71c80abf94ed84a9d3983e8f7d5214
+    path: Assets/Scenes/Final Levels/FinalLevel 3.unity
+    guid: 9eaebeebd58a847498e5a60cffbe596f
   - enabled: 1
-    path: Assets/Scenes/T_Level1.unity
-    guid: 85846b7ab1034914a8bbf6e72f555ada
+    path: Assets/Scenes/Final Levels/FinalLevel 4.unity
+    guid: 4a5446ae27d97e047a73586dfb9f52b6
+  - enabled: 1
+    path: Assets/Scenes/Final Levels/FinalLevel 5.unity
+    guid: 6ae0cfaef948e78458b22509f56b3f67
   m_configObjects: {}
